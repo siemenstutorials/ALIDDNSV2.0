@@ -2,18 +2,7 @@
 
 # 更新日志
 # Update 20180914 :
-# [Fix] 再次修复: CPU 100%占用问题
-#       这次找到了AliDDNS卡100%死循环的原因，并且加了一个小的检测机制，理论上应该不会再出现
-#       CPU卡100%的问题了(如果有问题请私信脚本作者，谢谢！)
-
 BuildTime="20180914"
-
-# 专家模式开关
-# 注意： 只有当你了解整个AliDDNS工作流程，并且有一定的动手能力，希望对AliDDNS脚本的更多参数进行
-#       深度定制时，你可以打开这个开关，会提供更多可以设置的选项，但如果你不懂、超级小白，请不要
-#       打开这个开关！因打开专家模式后配置失误发生的问题，作者不负任何责任！
-#       如需打开专家模式，请将脚本文件中的 Switch_AliDDNS_ExpertMode 变量值设置为1，即可打开
-#       专家模式，如需关闭，请将此值设置为0！
 Switch_AliDDNS_ExpertMode="0"
 
 # ===================================================================================
@@ -66,10 +55,9 @@ echo -e "${Font_Green}
 # AliDDNS 工具 (阿里云云解析修改工具)
 # 
 # Build:    ${BuildTime}
-# 支持平台:  CentOS/Debian/Ubuntu
-# 作者:     iLemonrain (原作者: kyriosli/koolshare-aliddns)
-# Blog:     https://blog.ilemonrain.com
-# E-mail:   ilemonrain@ilemonrain.com
+# Support platform:  CentOS/Debian/Ubuntu
+# Author: SiemensTutorials (Original author:iLemonrain)
+# Blog:     http://siemenstutorials.tk
 #========================================================
 
 ${Font_suffix}"
